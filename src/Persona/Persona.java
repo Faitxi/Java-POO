@@ -34,8 +34,15 @@ public class Persona {
 	void saludar ( ) {
 		System.out.println("Hola, te mando saluditos");
 	} //Cierre saludar
+
 	
 	
+	//toString
+	@Override
+	public String toString() {
+		return "Persona [nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + ", telefono=" + telefono
+				+ ", email=" + email + "]";
+	}
 	
 	//4. Instancia
 
